@@ -1,3 +1,28 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@800&family=Libre+Franklin:ital,wght@1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
   margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 550px;
+  height: 600px;
+  border: 2px solid grey;
+  margin: 30px auto;
+  padding: 45px;
+  background-color: #1F2937;
+  color: #10B981;
+}
+
+.heading {
+  font-family: 'Karla', sans-serif;
+  font-size: 40px;
+  line-height: 1;
+  color: white;
+}
+
+.heading span {
+  color: #10B981;
 }
