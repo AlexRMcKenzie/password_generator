@@ -12,8 +12,13 @@
   border: 2px solid grey;
   margin: 30px auto;
   padding: 45px;
+  padding-top: 90px;
   background-color: #1F2937;
   color: #10B981;
+}
+
+.upContent {
+  border-bottom: 1px solid gray;
 }
 
 .heading {
@@ -21,8 +26,29 @@
   font-size: 40px;
   line-height: 1;
   color: white;
+  margin-bottom: 5px;
 }
 
 .heading span {
   color: #10B981;
+}
+
+.subLine {
+  color: white;
+  font-family: 'Karla', sans-serif;
+  font-size: 18px;
+  margin-top: 12px;
+}
+
+.generatePassword {
+  background-color: #0fce8e;
+  color: white;
+  width: 170px;
+  padding: 10px;
+  font-family: 'Karla', sans-serif;
+  font-size: 17px;
+  border-radius: 7px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
