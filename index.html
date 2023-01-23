@@ -1,5 +1,6 @@
 <html>
   <head>
+    <title>Password Generator</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,13 +11,13 @@
       <div class="upContent">
         <h1 class="heading">Generate a <br><span>random password</span></h1>
         <p class="subLine">Never use an insecure password again.</p>
-        <button class="generatePassword">Generate Passwords</button>
+        <button class="generatePassword" id="generatePassword">Generate Passwords</button>
       </div>
       <class class="downContent">
-        <input type="text" name="leftText" id="leftText" class="outputText">
-        <input type="text" name="rightText" id="rightText" class="outputText">
+        <span type="text" name="leftText" id="leftText" class="outputText"></span>
+        <span type="text" name="rightText" id="rightText" class="outputText"></span>
       </class>
     </div>
-    <script src="index.js"></script>
+    <script src="/index.js"></script>
   </body>
 </html>
